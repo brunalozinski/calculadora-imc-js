@@ -21,7 +21,6 @@ function calcularImc() {
     } else {
         resultado.textContent = nome.value + ", seu IMC é " + imc.toFixed(1) + ". Você está com obesidade grau III.";
     }
- 
 }
  
 calcular.addEventListener("click", calcularImc);
