@@ -114,10 +114,11 @@ section{
 }
 
 .calculadora #resultado{
-    height: 100px;
-    background-color: var(--cor-destaque);
+    height: 80px;
     border-radius: 5px;
+    color: black;
     padding: 10px;
+    background-color: var(--cor-destaque);
 }
 
 footer{
